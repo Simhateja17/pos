@@ -38,6 +38,12 @@ function Sidebar({ active, setActive }) {
         </div>
         <div style={{fontSize:11, color:'var(--muted)'}}>Sync · UPI · Card terminal · Cloud printer</div>
       </div>
+      <a href="/" className="nav-item" style={{marginTop:12, textDecoration:'none', border:'1px solid var(--border)', background:'white'}}>
+        <span className="nav-ic">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        </span>
+        <span>Switch app</span>
+      </a>
     </aside>
   );
 }

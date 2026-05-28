@@ -1,7 +1,10 @@
 ﻿/** @type {import('next').NextConfig} */
 const nextConfig = {
   outputFileTracingIncludes: {
-    '/': ['./legacy_src/**/*'],
+    '/retail': ['./retail-pos/**/*'],
+    '/retail/src/[file]': ['./retail-pos/**/*'],
+    '/pharmacy': ['./pharmacy-pos/**/*'],
+    '/pharmacy/src/[file]': ['./pharmacy-pos/**/*'],
   },
 };
 
